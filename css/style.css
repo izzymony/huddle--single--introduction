@@ -1,0 +1,261 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color:hsl(257, 40%, 49%); 
+    background-image:url(/img/bg-mobile.svg);
+    background-repeat: no-repeat; 
+    background-size: 36rem; 
+}   
+
+h1{
+    margin-top:6rem;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+main{ 
+    align-content: center;
+    justify-content: center;
+    text-align:center;
+    background-image:url(/img/bg-mobile.svg);
+    background: no-repeat;  
+}
+
+.logo{
+    width:12rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.img{
+    margin-top: -5rem;
+}
+
+.mockups{
+    margin-top:4rem;
+    width:20rem;
+    margin-left: 1rem;
+}
+
+p{
+    color:white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 2rem;
+}
+
+button{
+    height:3rem;
+    width:14rem;
+    border-radius: 2rem;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    color:hsl(257, 40%, 49%); 
+    font-size: 17px;
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    filter: brightness(o) invert(30);
+}
+
+.social-media-facebook{
+    filter:brightness(0) invert(3);
+}
+
+.social-media-twitter{
+    margin-left: 1rem;
+    filter:brightness(0) invert(3);
+}
+
+.social-media-instagram{
+    margin-left: 1rem;
+    filter:brightness(0) invert(3);
+}
+
+ 
+
+@media(min-width:750px){
+    body{
+        min-width: 100vw;
+        background-color:hsl(257, 40%, 49%); 
+        background-image: url(/img/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 60rem;
+    }
+
+    .logo{
+        margin-top: 3rem;
+        margin-left: 10rem;
+    }
+
+    .mockups{
+        margin-top:4rem;
+        width:30rem;
+        justify-content: center;
+        align-content: center;
+        margin-left: 7rem;
+    }
+
+    h1{
+        color:white;
+        font-size: 50px;
+        font-family: 'S500egoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top: 7rem;
+        margin: 5rem;
+        font-weight: 600;
+    }
+
+    p{
+        color:white;
+        font-size: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         text-align: center;
+         margin: 3rem;
+
+    }
+    
+    
+button{
+    height:5rem;
+    width:20rem;
+    border-radius: 3rem;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    color:hsl(257, 40%, 49%); 
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    display: flex;
+    margin-top: 6rem;
+    justify-content: center;
+    filter: brightness(o) invert(30);
+}
+
+.social-media-facebook{
+    filter:brightness(0) invert(3);
+    width: 3rem;
+}
+
+.social-media-twitter{
+    margin-left: 1rem;
+    filter:brightness(0) invert(3);
+    width: 3rem;
+}
+
+.social-media-instagram{
+    margin-left: 1rem;
+    filter:brightness(0) invert(3);
+    width: 3rem;
+}
+
+ }
+ @media (min-width:1440px){
+    body{
+        min-width: 100vw;
+        background-color:hsl(257, 40%, 49%); 
+        background-image: url(/img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 87rem;
+        
+        
+    }
+
+    .logo{
+        margin-top: 3rem;
+        margin-left:6rem;
+        width: 30rem;
+    }
+
+.mockups{
+        margin-top: 4rem;
+        margin-left: 3rem;
+        width:40rem;
+    } 
+        
+    .wrapper{
+        width:40rem;
+        height:30rem;
+        float: right;
+        margin-right: 10rem; 
+    }
+
+    h1{
+        float:right;
+        color:white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        margin-right: 7rem;
+        margin-top: 10rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    p{
+        float:right;
+        text-align: center;
+        margin-top:-4rem;
+        font-size: 20px;
+        color: white;
+        
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    button{
+        height:4rem;
+        width:14rem;
+        border-radius: 2rem;
+        border-top-color: white;
+        border-bottom-color: white;
+        border-left-color: white;
+        border-right-color: white;
+        color:hsl(257, 40%, 49%); 
+        font-size: 17px;
+        font-weight: 400;
+        float: right;
+        margin-right: 23em;
+        margin-top: -6rem;
+    }
+
+    footer{
+        float: right;
+        margin-right: 8rem;
+    }
+
+    .social-media-facebook{
+        filter:brightness(0) invert(3);
+        width: 3rem;
+    }
+    
+    .social-media-twitter{
+        margin-left: 1rem;
+        filter:brightness(0) invert(3);
+        width: 3rem;
+    }
+    
+    .social-media-instagram{
+        margin-left: 1rem;
+        filter:brightness(0) invert(3);
+        width: 3rem;
+    
+        }
+
+    } 
